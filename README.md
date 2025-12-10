@@ -30,19 +30,38 @@ Includes an **Example Code Review Agent** that:
 
 ---
 
-### 🏃 How to Run the Project
-
-#### 1️⃣ Clone the repository
+## 🏃 How to Run the Project
+1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
 cd workflow-engine
-
-#### (2) Create and activate a virtual environment
-```bash 
+```
+2. **Create and activate a virtual environment**
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
 
+
 # Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the FastAPI server**
+```bash
+uvicorn app.main:app --reload
+```
+
+5. **Access the API in your browser**
+- 🌐 Base URL: http://localhost:8000
+
+- 📘 Swagger UI: http://localhost:8000/docs
+
+- 📕 ReDoc: http://localhost:8000/redoc
+
+
