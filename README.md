@@ -58,7 +58,7 @@ uvicorn app.main:app --reload
 ```
 
 5. **Access the API in your browser**
-- 🌐 Base URL: http://localhost:8000
+
 
 - 📘 Swagger UI: http://localhost:8000/docs
 
