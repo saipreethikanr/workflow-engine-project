@@ -33,7 +33,7 @@ Includes an **Example Code Review Agent** that:
 ## 🏃 How to Run the Project
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/saipreethikanr/workflow-engine-project.git
 cd workflow-engine
 ```
 2. **Create and activate a virtual environment**
